@@ -1,0 +1,36 @@
+/* src/components/List.css */
+.list-container {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .sort-button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sort-button:hover {
+    background-color: #45a049;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .data-table th,
+  .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .data-table th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
